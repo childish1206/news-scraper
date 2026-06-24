@@ -1,10 +1,11 @@
 import smtplib
 from email.mime.text import MIMEText
 from database import search_articles
+import os
 
-EMAIL_FROM = "childish1206@gmail.com"
-EMAIL_PASSWORD = "nlym plyu znxy ilfq"
-EMAIL_TO = "a15687878@gmail.com"
+EMAIL_FROM = os.environ.get("EMAIL_FROM")
+EMAIL_PASSWORD = os.environ.get("EMAIL_PASSWORD")
+EMAIL_TO = os.environ.get("EMAIL_TO")
 
 def check_and_notify(keyword):
     articles = search_articles(keyword)
