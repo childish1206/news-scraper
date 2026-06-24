@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>新聞爬蟲儀表板</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 900px; margin: 40px auto; padding: 0 20px; }
+        h1 { color: #333; }
+        .stats { background: #f0f0f0; padding: 15px; border-radius: 8px; margin-bottom: 20px; }
+        .article { border-bottom: 1px solid #ddd; padding: 12px 0; }
+        .source { color: #888; font-size: 0.9em; }
+        a { color: #0066cc; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        form { margin-bottom: 20px; }
+        input[type="text"] { padding: 8px; width: 250px; }
+        button { padding: 8px 16px; }
+    </style>
+</head>
+<body>
+    <h1>📰 新聞爬蟲儀表板</h1>
+
+    <div class="stats">
+        <strong>總文章數：</strong>{{ total }} 篇
+        {% for source, count in by_source %}
+            ｜{{ source }}：{{ count }} 篇
+        {% endfor %}
+    </div>
+
+    <form method="get">
+        <input type="text" name="keyword" placeholder="輸入關鍵字搜尋" value="{{ keyword }}">
+        <button type="submit">搜尋</button>
+    </form>
+
+    {% for article in articles %}
+        <div class="article">
+            <a href="{{ article[2] }}" target="_blank">{{ article[1] }}</a>
+            <div class="source">{{ article[3] }} ｜ {{ article[4] }}</div>
+        </div>
+    {% else %}
+        <p>沒有找到任何文章</p>
+    {% endfor %}
+
+    <h2>📈 每日爬取趨勢</h2>
+    <canvas id="trendChart" width="800" height="300"></canvas>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"></script>
+    <script>
+    fetch('/chart-data')
+        .then(res => res.json())
+        .then(data => {
+            new Chart(document.getElementById('trendChart'), {
+                type: 'line',
+                data: {
+                    labels: data.labels,
+                    datasets: [{
+                        label: '每日文章數',
+                        data: data.counts,
+                        borderColor: '#0066cc',
+                        fill: false
+                    }]
+                }
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+﻿ID,標題,網址,來源,爬取時間
+31,網頁快取與代理伺服器軟體 Squid被找出存在29年的漏洞，HTTP存取的密碼與金鑰可能全都被看光光！,https://www.ithome.com.tw/news/176744,iThome,2026-06-22 09:36:17
+32,FortiBleed曝光逾7萬臺Fortinet設備憑證資料，臺灣受影響數量居全球第三,https://www.ithome.com.tw/news/176718,iThome,2026-06-22 09:36:17
+33,Node.js揭露與修補12個漏洞，當中涵蓋兩個高風險漏洞,https://www.ithome.com.tw/news/176743,iThome,2026-06-22 09:36:17
+34,F5針對Nginx發布緊急安全更新，揭露與修補兩個重大漏洞,https://www.ithome.com.tw/news/176739,iThome,2026-06-22 09:36:17
+35,Splunk近期9.8分重大漏洞被CISA列入KEV，6月21日須完成修補,https://www.ithome.com.tw/news/176740,iThome,2026-06-22 09:36:17
+36,【資安週報】0615~0618，發現中國駭客入侵關鍵基礎設施，潛伏隔離網路環境近十年,https://www.ithome.com.tw/news/176729,iThome,2026-06-22 09:36:17
+37,因應FortiBleed外洩大量Fortinet設備登入憑證，英國NCSC建議企業可先用兩款工具自行檢測是否名列其中,https://www.ithome.com.tw/news/176757,iThome,2026-06-22 09:36:17
+38,MedTech醫療科技雙周報第51期：健保署今年將擴增LOINC上傳欄位、醫學中心優先試傳,https://www.ithome.com.tw/news/176723,iThome,2026-06-22 09:36:17
+39,【資安週報】0608-0612，全球漏洞治理迎來新變革，美國CISA開始勒令高風險漏洞3天內須修補,https://www.ithome.com.tw/news/176582,iThome,2026-06-22 09:36:17
+40,【資安週報】0601~0605，漏洞問題成國家嚴防風險，印度要求企業組織在關鍵漏洞公布12小時內完成修補,https://www.ithome.com.tw/news/176407,iThome,2026-06-22 09:36:17
+41,【資安週報】0525~0529，企業簡訊平臺EVERY8D遭駭引爆國家級供應鏈危機，F-ISAC發布黃燈級資安事件警訊,https://www.ithome.com.tw/news/176215,iThome,2026-06-22 09:36:17
+42,沒有公雲帳單，私有雲如何落實FinOps？國泰世華銀行SRE用監控數據支援治理決策,https://www.ithome.com.tw/news/176779,iThome,2026-06-22 09:36:17
+43,推動太空系統網路安全，MITRE透露鋼鐵城與Project 60計畫,https://www.ithome.com.tw/news/176776,iThome,2026-06-22 09:36:17
+44,新攻擊手法AutoJack可讓惡意網頁透過AI代理觸發本機程式執行,https://www.ithome.com.tw/news/176772,iThome,2026-06-22 09:36:17
+45,【資安日報】6月22日，FortiBleed暴露逾7萬臺Fortinet設備憑證,https://www.ithome.com.tw/news/176771,iThome,2026-06-22 09:36:17
+46,國際刑警組織示警亞洲與南太平洋網路犯罪升溫，AI與憑證竊取擴大攻擊鏈,https://www.ithome.com.tw/news/176770,iThome,2026-06-22 09:36:17
+47,美CISA公布因應FortiBleed的五大措施，要求企業重設帳密並升級至PBKDF2雜湊機制,https://www.ithome.com.tw/news/176765,iThome,2026-06-22 09:36:17
+48,思科買下身分安全新創WideField Security,https://www.ithome.com.tw/news/176766,iThome,2026-06-22 09:36:17
+49,AI應用程式框架Mastra遭遇北韓駭客供應鏈攻擊，逾140個NPM套件被植入後門,https://www.ithome.com.tw/news/176764,iThome,2026-06-22 09:36:17
+50,TypeScript 7.0邁向正式版，編譯器移植Go並導入平行化建置,https://www.ithome.com.tw/news/176763,iThome,2026-06-22 09:36:17
+51,挪威小學原則禁用AI，政府推動紙本教材回歸,https://www.ithome.com.tw/news/176762,iThome,2026-06-22 09:36:17
+52,微軟推出Copilot Cowork正式版，導入用量計費模式,https://www.ithome.com.tw/news/176761,iThome,2026-06-22 09:36:17
+53,殭屍網路AryStinger感染約4千臺D-Link路由器,https://www.ithome.com.tw/news/176759,iThome,2026-06-22 09:36:17
+54,Cloudflare推出臨時帳號加速AI代理人部署作業,https://www.ithome.com.tw/news/176756,iThome,2026-06-22 09:36:17
+55,Cloudflare用AI代理輔助漏洞探索，以跨模型驗證過濾無效發現,https://www.ithome.com.tw/news/176755,iThome,2026-06-22 09:36:17
+56,跨國執法行動中斷SocGholish感染鏈，清理近1.5萬個WordPress網站,https://www.ithome.com.tw/news/176754,iThome,2026-06-22 09:36:17
+57,印度最大電信商Jio啟動IPO,https://www.ithome.com.tw/news/176753,iThome,2026-06-22 09:36:17
+58,美國德州政府狩獵與釣魚執照管理系統發生資安事故，外洩300萬人的駕照資訊,https://www.ithome.com.tw/news/176752,iThome,2026-06-22 09:36:17
+59,微軟著手修補Microsoft Defender零時差漏洞RoguePlanet,https://www.ithome.com.tw/news/176751,iThome,2026-06-22 09:36:17
+60,微軟對Insiders發布首個Windows 11 26H2預覽版,https://www.ithome.com.tw/news/176750,iThome,2026-06-22 09:36:17
+1,Deno Desktop,https://docs.deno.com/runtime/desktop/,Hacker News,2026-06-22 09:36:16
+2,Codex logging bug may write TBs to local SSDs,https://github.com/openai/codex/issues/28224,Hacker News,2026-06-22 09:36:16
+3,Help I accidentally a wigglegram,https://lmao.center/blog/wiggle-accidents/,Hacker News,2026-06-22 09:36:16
+4,GLM 5.2 vs. Opus,https://techstackups.com/comparisons/glm-5.2-vs-opus/,Hacker News,2026-06-22 09:36:16
+5,Did my old job only exist because of fraud?,https://david.newgas.net/did-my-old-job-only-exist-because-of-fraud/,Hacker News,2026-06-22 09:36:16
+6,Apertus – Open Foundation Model for Sovereign AI,https://apertvs.ai/,Hacker News,2026-06-22 09:36:16
+7,Munich 1991: The Roots of the Current AI Boom,https://people.idsia.ch/~juergen/ai-boom-roots-munich-1991.html,Hacker News,2026-06-22 09:36:16
+8,There is minimal downside to switching to open models,https://www.marble.onl/posts/cancel_claude.html,Hacker News,2026-06-22 09:36:16
+9,Memory Safe Inline Assembly,https://fil-c.org/inlineasm,Hacker News,2026-06-22 09:36:16
+10,Lisp in the Rust Type System,https://github.com/playX18/lisp-in-types/,Hacker News,2026-06-22 09:36:16
+11,Everything is logarithms,https://alexkritchevsky.com/2026/05/25/everything-is-logarithms.html,Hacker News,2026-06-22 09:36:16
+12,Good results fine tuning a local LLM like Qwen 3:0.6B to categorize questions,https://www.teachmecoolstuff.com/viewarticle/fine-tuning-a-local-llm-to-categorize-questions,Hacker News,2026-06-22 09:36:16
+13,Identity verification on Claude,https://support.claude.com/en/articles/14328960-identity-verification-on-claude,Hacker News,2026-06-22 09:36:16
+14,Sakana Fugu,https://sakana.ai/fugu/,Hacker News,2026-06-22 09:36:16
+15,My 1992 view of the problems of computer programming in 1992,https://blog.plover.com/prog/fortran-i.html,Hacker News,2026-06-22 09:36:16
+16,JSON-LD explained for personal websites,https://hawksley.dev/blog/json-ld-explained-for-personal-websites/,Hacker News,2026-06-22 09:36:16
+17,Luis Alvarez's Journey from Hiroshima to the Death of the Dinosaurs,https://www.lrb.co.uk/the-paper/v48/n11/steven-shapin/barrel-of-greenbacks,Hacker News,2026-06-22 09:36:16
+18,"Efficient C++ Programming for Modern C++ CPUs, Chapter 4/part 2",https://6it.dev/blog/infographics-operation-costs-in-cpu-clock-cycles-take-2-80736,Hacker News,2026-06-22 09:36:16
+19,How I play video games with spinal muscular atrophy,https://www.openassistivetech.org/how-i-actually-play-video-games-with-sma-the-tools-i-use-every-day/,Hacker News,2026-06-22 09:36:16
+20,Japanese verb conjugation the simple hard way,https://underreacted.leaflet.pub/3mmevu6woys27,Hacker News,2026-06-22 09:36:16
+21,PowerFox Browser,https://powerfox.jazzzny.me/,Hacker News,2026-06-22 09:36:16
+22,1983 Northern Telecom Commodore Phone,https://www.oldtelephoneroom.ca/1983-northern-telecom-commodore-phone/,Hacker News,2026-06-22 09:36:16
+23,"Minecraft: Java Edition 26.2, the first version with Vulkan 1.2",https://www.minecraft.net/en-us/article/minecraft-java-edition-26-2,Hacker News,2026-06-22 09:36:16
+24,Show HN: Teach your kids perfect pitch,https://github.com/paytonjjones/bsharp,Hacker News,2026-06-22 09:36:16
+25,Rent collections are down in New York,https://www.politico.com/news/2026/06/21/rent-collections-are-down-in-new-york-and-no-ones-sure-why-00966982,Hacker News,2026-06-22 09:36:16
+26,"Show HN: Criterion Closet as a website – pull any of 1,247 films off the shelf",https://the-criterion-closet.vercel.app,Hacker News,2026-06-22 09:36:16
+27,The minimum viable unit of saleable software,https://brandur.org/minimum-viable-unit,Hacker News,2026-06-22 09:36:16
+28,Prefer duplication over the wrong abstraction (2016),https://sandimetz.com/blog/2016/1/20/the-wrong-abstraction,Hacker News,2026-06-22 09:36:16
+29,Investors get real-time view of UK bond market activity for the first time,https://www.fca.org.uk/news/press-releases/investors-get-real-time-view-uk-bond-market-activity-first-time,Hacker News,2026-06-22 09:36:16
+30,Danish privacy activist Lars Andersen raided by police,https://twitter.com/LarsAnders1620/status/2068208864747540516#m,Hacker News,2026-06-22 09:36:16
